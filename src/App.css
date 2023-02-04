@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body {
+    background-color: #ccddff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    background-color: rgb(7, 2, 71);
+    justify-content: center;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 26%;
+    text-align: center;
+    padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=text],
+select {
+    width: 80%;
+    height: 30%;
+    padding: 12px;
+    margin: 30px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    width: 15%;
+    background-color: rgb(67, 195, 108);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.header {
+    width: 100%;
+    padding: 12px 20px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-heading {
+    color: rgb(240, 234, 234);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    background-color: cadetblue;
+    width: 27%;
+}
+
+.listData {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(164, 203, 237);
+    text-align: left;
+    padding-left: 30px;
+    width: 53%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+.btn-position {
+    position: relative;
+    left: 15%;
+    top: -62px;
 }
